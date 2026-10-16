@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">UlarSuvai product banner</title>
+  <desc id="desc">Premium South Indian traditional dry foods arranged on banana leaves: pickle jar, karuvadu dry fish, uppukandam dry meat, karuppatti and panangarkandu.</desc>
+  <defs>
+    <radialGradient id="warm" cx="50%" cy="20%" r="80%"><stop stop-color="#f5ca82"/><stop offset=".42" stop-color="#9a4a22"/><stop offset="1" stop-color="#34170d"/></radialGradient>
+    <linearGradient id="leaf" x1="0" x2="1"><stop stop-color="#24451f"/><stop offset=".5" stop-color="#7d913e"/><stop offset="1" stop-color="#183719"/></linearGradient>
+    <linearGradient id="jar" x1="0" x2="1"><stop stop-color="#8d2716"/><stop offset=".5" stop-color="#ee5c2b"/><stop offset="1" stop-color="#6b170e"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#170803" flood-opacity=".42"/></filter>
+  </defs>
+  <rect width="900" height="720" rx="56" fill="url(#warm)"/>
+  <path d="M82 508c130-155 286-210 452-168 120 31 213 105 294 210-219 84-520 104-746-42Z" fill="url(#leaf)" filter="url(#shadow)"/>
+  <path d="M118 502c218 21 463 22 680 15" stroke="#d8d48a" stroke-width="5" opacity=".45"/>
+  <g filter="url(#shadow)">
+    <g transform="translate(110 186)">
+      <ellipse cx="120" cy="300" rx="105" ry="28" fill="#351409" opacity=".35"/>
+      <path d="M62 90h116l-12 205c-3 41-90 42-94 0z" fill="url(#jar)"/>
+      <path d="M52 72h136v44H52z" rx="14" fill="#432014"/>
+      <ellipse cx="120" cy="72" rx="68" ry="18" fill="#e6ba6b"/>
+      <circle cx="98" cy="170" r="10" fill="#ffca72" opacity=".8"/><path d="M93 219c42-20 79-5 98 22" stroke="#ffb35d" stroke-width="7" fill="none" opacity=".7"/>
+    </g>
+    <g transform="translate(330 288)">
+      <ellipse cx="105" cy="180" rx="132" ry="30" fill="#351409" opacity=".35"/>
+      <path d="M6 103c80-83 194-73 256 0-77 27-168 28-256 0z" fill="#c7b08a" stroke="#5d4028" stroke-width="7"/>
+      <path d="M48 88c67 28 126 27 178 0" fill="none" stroke="#5d4028" stroke-width="5"/><path d="M162 103l60 45m-93-44l31 59m-74-68l-41 44" stroke="#5d4028" stroke-width="5"/>
+      <text x="132" y="205" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#fff4d8">Karuvadu</text>
+    </g>
+    <g transform="translate(560 190)">
+      <ellipse cx="114" cy="298" rx="118" ry="28" fill="#351409" opacity=".35"/>
+      <path d="M25 232c24-60 150-72 192-10-28 64-154 78-192 10z" fill="#7a4a2a" stroke="#2e160c" stroke-width="6"/>
+      <path d="M62 214c35 18 83 18 126 0M70 247c41 15 79 14 113-3" stroke="#d0a16d" stroke-width="6" opacity=".7"/>
+      <rect x="34" y="72" width="76" height="88" rx="13" fill="#3c1d10" transform="rotate(-12 72 116)"/>
+      <rect x="112" y="54" width="82" height="92" rx="14" fill="#5b2a14" transform="rotate(10 153 100)"/>
+      <rect x="92" y="126" width="91" height="90" rx="16" fill="#8f5220" transform="rotate(-5 137 171)"/>
+      <text x="120" y="342" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#fff4d8">Karuppatti</text>
+    </g>
+  </g>
+  <g opacity=".85"><circle cx="162" cy="126" r="9" fill="#f0c06c"/><circle cx="748" cy="122" r="7" fill="#f0c06c"/><path d="M700 576c49-20 91-48 124-84" stroke="#f2cf8c" stroke-width="5" fill="none"/></g>
+</svg>

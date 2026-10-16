@@ -1,0 +1,22 @@
+{
+  "name": "ularsuvai-premium-single-page-site",
+  "version": "1.0.0",
+  "description": "Production-ready SEO-first single-page website for UlarSuvai traditional South Indian dry foods.",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "check:links": "python3 scripts/check_links.py",
+    "check:seo": "python3 scripts/check_seo.py"
+  },
+  "keywords": [
+    "UlarSuvai",
+    "South Indian dry foods",
+    "Tamil pickles",
+    "Oorugai",
+    "Karuvadu",
+    "Uppukandam",
+    "Karuppatti"
+  ],
+  "author": "UlarSuvai",
+  "license": "UNLICENSED"
+}

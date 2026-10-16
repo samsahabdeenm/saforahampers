@@ -1,0 +1,10 @@
+/* TEAM */
+Brand: UlarSuvai
+Site: https://ularsuvai.in/
+Contact: ularsuvai@gmail.com
+Phone: +91 80720 09245
+
+/* SITE */
+Language: English (India) with Tamil food terminology
+Standards: HTML5, CSS3, JSON-LD, WCAG-aware semantic structure
+Purpose: Premium SEO-first single-page website for traditional South Indian dry foods

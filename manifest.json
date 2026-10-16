@@ -1,0 +1,13 @@
+{
+  "name": "UlarSuvai - The Essence of Dry",
+  "short_name": "UlarSuvai",
+  "description": "Traditional South Indian dry foods: Oorugai, Karuvadu, Uppukandam, Karuppatti and Panangarkandu.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff7ea",
+  "theme_color": "#4b2413",
+  "icons": [
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

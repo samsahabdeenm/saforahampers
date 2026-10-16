@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">UlarSuvai premium Tamil heritage logo</title>
+  <desc id="logoDesc">A warm bronze UlarSuvai wordmark with mountain line art and the tagline The Essence of Dry.</desc>
+  <defs>
+    <linearGradient id="bronze" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#926332"/>
+      <stop offset="0.48" stop-color="#4b2b16"/>
+      <stop offset="1" stop-color="#d39b4e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#b47a2d"/>
+      <stop offset="1" stop-color="#f1c374"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#2b1409" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="900" height="420" rx="42" fill="#f5ead6"/>
+  <path d="M182 168C248 62 391 38 488 61c79 19 148 68 187 118" fill="none" stroke="url(#gold)" stroke-width="4" opacity=".85"/>
+  <path d="M217 173l58-53 31 34 47-69 55 83 43-49 56 55M273 121l-18 54m51-21l-22 34m68-103l-37 91m92-8l-18 33m61-82l-22 77" fill="none" stroke="#6f4a28" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+  <text x="88" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="132" font-weight="700" fill="url(#bronze)" filter="url(#softShadow)">உலர்</text>
+  <text x="520" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="105" fill="url(#bronze)" filter="url(#softShadow)">suvai</text>
+  <path d="M120 296c142 30 280 28 420-3 92-20 181-14 264 25" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linecap="round" opacity=".9"/>
+  <text x="450" y="350" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="26" letter-spacing="12" fill="#4b2b16">THE ESSENCE OF DRY</text>
+</svg>

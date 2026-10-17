@@ -7,6 +7,7 @@ A responsive brand and enquiry website for Safora Hampers, a gifting brand based
 - Premium editorial typography and mobile-first layouts.
 - Gifting collections, custom creations, corporate gifting and bulk-order enquiry.
 - No product prices are published; pricing is handled through enquiries.
+- Email: saforahampers@gmail.com
 - Instagram: https://www.instagram.com/safora.hampers/
 
 ## Pages and structure
@@ -31,3 +32,6 @@ The repository is configured for the custom domain in `CNAME`. Confirm DNS and H
 
 ## Contact handling
 The enquiry form prepares a message for the official Instagram conversation. No server-side storage or third-party form backend is configured.
+
+## Official contact
+- `saforahampers@gmail.com` — customer enquiries and privacy/terms questions.

@@ -1,6 +1,6 @@
 # Original Safora product photography
 
-Add every original product photo supplied by the client here, unchanged. Suggested organisation:
+Add every approved original product photo here, unchanged. Suggested organisation:
 - celebration-hampers/
 - personalised-gifts/
 - wedding-event-gifts/
@@ -8,4 +8,4 @@ Add every original product photo supplied by the client here, unchanged. Suggest
 - custom-creations/
 - bouquet-gifts/
 
-For each image, record the client-approved product title, category, descriptive alt text, and exact source filename in a catalogue manifest. Do not use UlarSuvai photos, stock substitutes, AI-generated product images, or invented product names/prices.
+For each image, record the client-approved product title, category, descriptive alt text, and exact source filename in a catalogue manifest. Use only supplied originals; do not use stock substitutes, AI-generated product images, or invented product names or prices.

@@ -1,10 +1,9 @@
-/* TEAM */
-Brand: UlarSuvai
-Site: https://ularsuvai.in/
-Contact: ularsuvai@gmail.com
-Phone: +91 80720 09245
+/* BRAND */
+Name: Safora Hampers
+Location: Chennai, India
+Instagram: https://www.instagram.com/safora.hampers/
 
 /* SITE */
-Language: English (India) with Tamil food terminology
-Standards: HTML5, CSS3, JSON-LD, WCAG-aware semantic structure
-Purpose: Premium SEO-first single-page website for traditional South Indian dry foods
+Purpose: Premium gifting, custom hamper and corporate gifting enquiries
+Theme: Royal purple, white and restrained gold
+Standards: Semantic HTML, responsive CSS, accessibility-aware interactions, structured data

@@ -1,48 +1,33 @@
-# UlarSuvai Premium Single Page Website
+# Safora Hampers
 
-A production-ready, SEO-first, AI-discoverable single-page website for **UlarSuvai**, a premium South Indian traditional dry food brand.
+A responsive brand and enquiry website for Safora Hampers, a gifting brand based in Chennai.
 
-## Brand Positioning
+## Brand direction
+- Royal purple, white and restrained gold accents.
+- Premium editorial typography and mobile-first layouts.
+- Gifting collections, custom creations, corporate gifting and bulk-order enquiry.
+- No product prices are published; pricing is handled through enquiries.
+- Instagram: https://www.instagram.com/safora.hampers/
 
-UlarSuvai means **Ular** (dry / preserved) + **Suvai** (taste / flavor). The website presents the brand as authentic, Tamil heritage-led, family friendly and premium while keeping ordering simple through WhatsApp, phone and email.
+## Pages and structure
+- `index.html` — brand homepage, collections, corporate gifting, enquiry and FAQ.
+- `privacy.html` — privacy notice.
+- `terms.html` — terms and conditions.
+- `style.css` — responsive design system.
+- `script.js` — accessible mobile navigation and enquiry preparation.
+- `assets/images/brand/` — approved brand assets.
+- `assets/images/products/` — original product photography, grouped by collection.
+- `llms.txt`, `robots.txt`, `sitemap.xml`, structured data and social metadata support discovery.
 
-## Product Coverage
+## Product photography
+Only original, client-approved photography should be added to `assets/images/products/`. Do not use generated or substitute product photos. Add a descriptive filename and approved product title, category and alt text for every photo before publishing the catalogue.
 
-- **Pickles / Oorugai:** Chicken, Mutton, Beef, Prawn, Squid / Kanava and Fish Pickle.
-- **Panai Porul:** Karuppatti / Palm Jaggery and Panangarkandu / Palm Candy.
-- **Uppukandam / Dry Meat:** Mutton Uppukandam and Beef Uppukandam.
-- **Karuvadu / Dry Fish:** all types of traditional dry fish and dried seafood.
+## Run locally
+This is a static website. Run any local static server from the repository root, for example:
+`python3 -m http.server 4173`
 
-## Technical Features
+## Deployment
+The repository is configured for the custom domain in `CNAME`. Confirm DNS and HTTPS settings in GitHub Pages after deployment.
 
-- Single-page semantic HTML architecture.
-- Responsive premium Tamil heritage-inspired UI.
-- Accessible navigation, skip link, ARIA labels and semantic sections.
-- JSON-LD for Organization, FoodEstablishment, WebSite and FAQPage.
-- Open Graph, Twitter Cards, canonical, robots meta, manifest, sitemap, humans.txt and llms.txt.
-- Direct conversion CTAs for WhatsApp, phone call and email.
-
-## Local Development
-
-```bash
-python3 -m http.server 4173
-```
-
-Open `http://localhost:4173`.
-
-## Quality Checks
-
-```bash
-python3 scripts/check_links.py
-python3 scripts/check_seo.py
-```
-
-## Google Business Profile Draft
-
-**Business description:** UlarSuvai is a premium South Indian traditional dry food brand offering authentic Tamil Oorugai pickles, Karuvadu dry fish, Uppukandam dry meat, Karuppatti palm jaggery and Panangarkandu palm candy. Customers can order directly through WhatsApp, phone or email.
-
-**Product description:** Traditional South Indian dry foods including Chicken Pickle, Mutton Pickle, Beef Pickle, Prawn Pickle, Squid / Kanava Pickle, Fish Pickle, Karuvadu, Uppukandam, Karuppatti and Panangarkandu.
-
-## Analytics and Webmaster Setup
-
-Add production verification tags or scripts in `index.html` when account IDs are available for Google Search Console, Google Analytics and Bing Webmaster Tools. The current website is ready for those snippets without structural changes.
+## Contact handling
+The enquiry form prepares a message for the official Instagram conversation. No server-side storage or third-party form backend is configured.

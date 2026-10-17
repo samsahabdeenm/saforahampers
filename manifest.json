@@ -1,12 +1,12 @@
 {
-  "name": "UlarSuvai - The Essence of Dry",
-  "short_name": "UlarSuvai",
-  "description": "Traditional South Indian dry foods: Oorugai, Karuvadu, Uppukandam, Karuppatti and Panangarkandu.",
+  "name": "Safora Hampers | Thoughtfully Curated",
+  "short_name": "Safora",
+  "description": "Thoughtfully curated hampers, personalised gifting and corporate gifting in Chennai.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#fff7ea",
-  "theme_color": "#4b2413",
+  "background_color": "#fffdf9",
+  "theme_color": "#321044",
   "icons": [
     { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
   ]

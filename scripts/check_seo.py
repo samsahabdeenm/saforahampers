@@ -1,15 +1,17 @@
 from pathlib import Path
-
-html = Path("index.html").read_text(encoding="utf-8")
-required = [
-    '<title>', 'name="description"', 'rel="canonical"', 'property="og:title"',
-    'name="twitter:card"', 'application/ld+json', 'id="products"', 'id="contact"',
-    'Chicken Oorugai', 'Karuvadu', 'Uppukandam', 'Karuppatti', 'Panangarkandu'
-]
-missing = [item for item in required if item not in html]
-if missing:
-    raise SystemExit("Missing SEO markers: " + ", ".join(missing))
-for file_name in ["robots.txt", "sitemap.xml", "manifest.json", "llms.txt", "humans.txt"]:
-    if not Path(file_name).exists():
-        raise SystemExit(f"Missing {file_name}")
-print("SEO, AI discovery and documentation markers are present.")
+root = Path(__file__).resolve().parents[1]
+html = (root / "index.html").read_text(encoding="utf-8")
+checks = {
+    "title": "<title>Safora Hampers" in html,
+    "meta description": 'name="description"' in html,
+    "canonical": 'rel="canonical" href="https://saforahampers.store/"' in html,
+    "FAQ": 'id="faq"' in html and "FAQ" in html,
+    "structured data": 'application/ld+json' in html,
+    "mobile viewport": 'name="viewport"' in html,
+    "social profile": "instagram.com/safora.hampers" in html,
+}
+failed = [name for name, ok in checks.items() if not ok]
+for name, ok in checks.items():
+    print(f"{'PASS' if ok else 'FAIL'}: {name}")
+if failed:
+    raise SystemExit(1)

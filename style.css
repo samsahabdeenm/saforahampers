@@ -32,3 +32,37 @@ body{background:var(--paper);color:var(--ink)}
 /* Typography: Poppins for display/headings, Roboto for body copy and controls. */
 h1,h2,h3,h4,h5,h6,.eyebrow,.brand-wordmark,.footer-brand,.collection-card h3,.primary-nav,.button,.btn,button,input,select,textarea{font-family:"Poppins",Arial,sans-serif}
 body,p,li,small,label,summary,blockquote{font-family:"Roboto",Arial,sans-serif}
+
+/* Balanced luxury palette: alternate warm light sections with royal-purple feature sections. */
+:root{--paper:#fffdf9;--ink:#2b1235;--muted:#766b78;--line:#eadfeb}
+body{background:#fffdf9;color:#2b1235}
+.announcement{background:#21092d;color:#f5d985}
+.site-header{background:rgba(255,253,249,.97);color:#2b1235;border-bottom:1px solid #eadfeb}
+.primary-nav,.primary-nav:not(.open) a{color:#2b1235}
+.hero{background:#fffdf9;color:#2b1235}
+.hero h1,.intro-grid h2,.section-heading h2,.corporate-heading h2,.process-section h2,.enquiry-copy h2,.faq-heading h2{color:#321044}
+.hero-intro,.intro-body p,.section-heading>p,.corporate-heading>p:not(.eyebrow),.corporate-list p,.faq-heading>p:not(.eyebrow),.faq-list details p{color:#6f6273}
+.trust-strip{background:#f4edf6;color:#321044;border-color:#e6d9ea}
+.intro-section,.collections,.corporate-section,.faq-section{background:#fffdf9;color:#2b1235}
+.intro-grid h2,.section-heading h2,.corporate-heading h2,.faq-heading h2{color:#321044}
+.collection-lilac{background:#eee3f1;color:#321044}
+.collection-cream{background:#f7f0dc;color:#321044}
+.collection-pink{background:#f5e2e8;color:#321044}
+.collection-purple{background:#321044;color:#fff7ff}
+.collection-card{border:1px solid #e6d9ea}
+.custom-section{background:#321044;color:#fff8ff}
+.custom-copy h2,.custom-copy>p:not(.eyebrow){color:#fff8ff}
+.custom-copy .eyebrow,.eyebrow{color:#ad7d23}
+.corporate-list article,.faq-list details{border-color:#eadfeb}
+.corporate-list h3,.faq-list summary{color:#321044}
+.process-section{background:#f4edf6;color:#321044;border-color:#e6d9ea}
+.process-section h2,.process-grid h3{color:#321044}
+.process-grid p{color:#766b78}
+.enquiry-section{background:#fffdf9}
+.enquiry-panel{background:#321044;color:#fff8ff;border:1px solid rgba(228,195,111,.3)}
+.enquiry-copy h2,.enquiry-copy>p:not(.eyebrow){color:#fff8ff}
+.site-footer{background:#21092d;color:#fff8ff}
+.footer-social-placeholder{color:#e0d2e6}
+.footer-social-placeholder small{border-color:#654d6d;color:#d0bfd7}
+.hero-photo{background:#321044}
+@media(max-width:720px){.site-header{background:rgba(255,253,249,.98)}.primary-nav{background:#fffdf9}}

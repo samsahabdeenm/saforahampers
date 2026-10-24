@@ -32,3 +32,6 @@
 @media(max-width:720px){.hero{grid-template-columns:1fr;gap:22px;padding:38px 20px 28px;min-height:0}.hero-copy{padding:0}.hero .eyebrow{font-size:9px;letter-spacing:.25em;margin-bottom:14px}.hero .eyebrow span{width:28px}.hero h1{font-size:clamp(43px,11.8vw,64px);line-height:1.02;letter-spacing:-.04em}.hero-intro{font-size:14px;line-height:1.7;margin:16px 0 20px;max-width:360px}.hero .button-gold{min-height:48px;padding:13px 19px;font-size:12px}.hero-benefits{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:25px;padding-top:15px;row-gap:14px}.hero-benefit{font-size:10px;padding:0 9px;min-height:38px}.hero-benefit:nth-child(2){border-right:0}.hero-benefit:nth-child(3){padding-left:0}.benefit-icon{font-size:27px}.hero-visual{padding:0 5px 5px 0}.hero-frame{height:clamp(260px,74vw,410px);border-radius:3px}.hero-frame:after{inset:9px}.hero-decor-one{font-size:34px;top:-14px;right:-2px}.hero-decor-two{font-size:42px;bottom:-10px;left:-13px}}
 @media(max-width:380px){.hero{padding:32px 16px 24px}.hero h1{font-size:42px}.hero-benefit{font-size:9px;gap:7px}.benefit-icon{font-size:23px}.hero-frame{height:260px}}
 @media(prefers-reduced-motion:reduce){.hero .button-gold{transition:none}}
+
+/* Social icon sizing */
+.footer-social a{display:inline-flex;align-items:center;gap:8px}.social-icon{width:18px;height:18px;display:inline-block;flex:none}
